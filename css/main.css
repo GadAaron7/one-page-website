@@ -97,17 +97,31 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* -------------------HTML BODY SETTINGS------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #777777;
+    font-family: 'Titillium', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+}
 
 
+/* -------------------CUSTOM FONTS------------------- */
 
-
-
-
-
-
-
-
-
+/* Primary */
+@font-face {
+    font-family: 'Titillium';
+    src: url("../fonts/Gotham-Medium.otf");
+}
 
 
 
