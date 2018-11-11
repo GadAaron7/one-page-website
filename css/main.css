@@ -97,8 +97,9 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* -------------------HTML BODY SETTINGS------------------- */
-
+/* -------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------- */
 * {
     margin: 0;
     padding: 0;
@@ -108,19 +109,122 @@ textarea {
 html {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    font-size: 16px;
+    background-color: #ecedee;
     color: #777777;
     font-family: 'Titillium', 'Arial', sans-serif;
     text-rendering: optimizeLegibility;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    color: #222222;
+}
 
-/* -------------------CUSTOM FONTS------------------- */
+h1 {
+    font-size: 300%;
+}
+
+h2 {
+    font-size: 180%;
+}
+
+
+/* -------------------------------------- */
+/* CUSTOM FONTS */
+/* -------------------------------------- */
 
 /* Primary */
 @font-face {
     font-family: 'Titillium';
     src: url("../fonts/Gotham-Medium.otf");
+}
+
+
+/* -------------------------------------- */
+/* REUSABLE CLASSES */
+/* -------------------------------------- */
+
+.text-center {
+    text-align: center;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.padding-x-1 {
+    padding: 0 15px;
+}
+
+.padding-x-2 {
+    padding: 0 30px;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+/* -------------------TOP NAV------------------- */
+
+.top-nav {
+    margin: 80px 0;
+}
+
+/* -------------------MAIN HEADER------------------- */
+
+.main-header {
+    min-height: 700px;
+    background-color: #cdcdcd;
+    position: relative;
+}
+
+.main-header-logo {
+    margin-top: 12px;
+}
+
+.main-header-nav ul li {
+    list-style: none;
+    height: 70px;
+    line-height: 70px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-header-nav ul li:last-child {
+    margin-left: none;
+}
+
+.main-header-nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.main-header-content {
+    text-align: center;
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-header-content ul li {
+    display: inline-block;
+    list-style: none;
 }
 
 
