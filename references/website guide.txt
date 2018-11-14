@@ -1,0 +1,19 @@
+1. use boilerplate
+2. create a working directory
+3. normalize
+4. web fonts
+-custom fonts
+-icons - include all.css and add the webfonts folder
+5. * = margin,padding,box-sizing
+6. setup html
+	-background-color
+	-font-color
+	-font-family
+	-font-size (base font size)
+	-font-weight
+	-text-rendering
+7. header text - remove margins
+8. responsive elements
+-grids
+-fluid layout
+-media queries
